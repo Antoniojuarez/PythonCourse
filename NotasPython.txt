@@ -1,0 +1,3 @@
+Teoria
+
+Con el comando import, estamos trayendo un modelo.
