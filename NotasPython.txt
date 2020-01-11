@@ -6,4 +6,8 @@ Evitar usar un nombre para el fichero python como alguno de los modelos a import
 
 En el metodo print se concatena con las ','
 
-El nombre de las variables no puede contener caracteres raros o numeros
+Variables
+
+	* El nombre de las variables no puede contener caracteres raros o numeros
+	* Variables con declaracion implicita, segun el valor que contiene (int, string, float)
+	* Se usa el operador "+" para concatenar textos
