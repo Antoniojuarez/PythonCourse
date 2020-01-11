@@ -16,3 +16,5 @@ sum2 = y + y
 
 print(sum1, sum2)
 print(type(x), type(y), type(z))
+
+student_grades = [9.1, 8.4, 7.5]
