@@ -5,3 +5,5 @@ Con el comando import, estamos trayendo un modelo.
 Evitar usar un nombre para el fichero python como alguno de los modelos a importar.
 
 En el metodo print se concatena con las ','
+
+El nombre de las variables no puede contener caracteres raros o numeros
