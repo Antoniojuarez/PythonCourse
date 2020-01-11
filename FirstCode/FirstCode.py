@@ -19,5 +19,10 @@ print(type(x), type(y), type(z))
 
 student_grades = [9.1, 8.4, 7.5]
 
+mysum = sum(student_grades)
+mycount = len(student_grades)
+mean = mysum / mycount
+print(mean)
+
 myword = "hello"
 print(myword.title())

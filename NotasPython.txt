@@ -14,4 +14,5 @@ Variables
 	* Para las listas se usa el operador [], Con el comando list(range(inicio, final)) se puede crear una lista con los numeros comprendidos entre el inicio y el final (este no esta incluido)
 
 Metodo dir(type) indica todas las propiedades de las que dispone el tipo indicado
+	* dir(__builtins__) -> Indica las funciones disponibles en python
 Metodo help(type.attributte) muestra lo que hace el atributo seleccionado
