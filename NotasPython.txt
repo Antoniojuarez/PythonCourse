@@ -1,3 +1,7 @@
 Teoria
 
 Con el comando import, estamos trayendo un modelo.
+
+Evitar usar un nombre para el fichero python como alguno de los modelos a importar.
+
+En el metodo print se concatena con las ','
