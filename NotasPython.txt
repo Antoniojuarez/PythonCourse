@@ -11,4 +11,5 @@ Variables
 	* El nombre de las variables no puede contener caracteres raros o numeros
 	* Variables con declaracion implicita, segun el valor que contiene (int, string, float)
 	* Se usa el operador "+" para concatenar textos
-	* Para las listas se usa el operador []
+	* Para las listas se usa el operador [], Con el comando range(inicio, final) se puede crear una lista con los numeros comprendidos entre el inicio y el final (este no esta incluido)
+	
