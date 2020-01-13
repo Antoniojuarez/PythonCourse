@@ -36,3 +36,8 @@ Condicionales
 	* Cuando se quieren anidar condiciones se utilizara los operadores "and" y "or"
 	* Para comprobar el type de una variable se puede usar la funcion isinstance(valor, type)
 	* Usar el termino elif para añadir condiciones a distintos casos (else if)
+
+Uso de espacios en blanco
+	* Despues de una condicion se puede añadir la cantidad de espacios que se quieran pero no es una buena practica.
+	* Entre valores y operadores pueden haber o no espacios
+	* Dentro de una funcion es necesarios que las lineas tengan identacion con respecto a la definicion de la funcion (buena practica es 4)
