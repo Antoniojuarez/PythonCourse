@@ -12,6 +12,9 @@ Variables
 	* Variables con declaracion implicita, segun el valor que contiene (int, string, float)
 	* Se usa el operador "+" para concatenar textos
 	* Para las listas se usa el operador [], Con el comando list(range(inicio, final)) se puede crear una lista con los numeros comprendidos entre el inicio y el final (este no esta incluido)
+		- Comando append para añadir un nuevo valor
+		- Comando clear para limpiar la lista
+		- Comando index para recuperar la posicion de un valor de la lista, permite indicar el intervalo de elementos en el que buscar en la lista (start, stop)
 	* Para usar diccionarios de datos se utiliza el operador {}
 	* Para usar una tupla de datos se utiliza el operador ()
 		- La diferencia entre las tuplas y las listas, es que las primeras son inmutables mientras que las segundas son mutables, esto quiere decir que a las listas puedes añadir o quitar elementos
