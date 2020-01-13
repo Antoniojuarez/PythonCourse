@@ -14,6 +14,10 @@ z = 10.1
 sum1 = x + x
 sum2 = y + y
 
+def mean(mylist):
+    the_mean = sum(mylist) / len(mylist)
+    return the_mean
+
 print(sum1, sum2)
 print(type(x), type(y), type(z))
 
@@ -23,8 +27,8 @@ student_grades = {"Marry": 9.1, "Sim": 8.8, "John": 7.5}
 
 mysum = sum(student_grades.values())
 mycount = len(student_grades)
-mean = mysum / mycount
-print(mean)
+mymean = mysum / mycount
+print(mean(monday_temperatures))
 
 myword = "hello"
 print(myword.title())

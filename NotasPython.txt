@@ -26,3 +26,7 @@ Variables
 Metodo dir(type) indica todas las propiedades de las que dispone el tipo indicado
 	* dir(__builtins__) -> Indica las funciones disponibles en python
 Metodo help(type.attributte) muestra lo que hace el atributo seleccionado
+
+Funciones
+
+	* Utilizar la expresion "def" para indicar que se va a definir una funcion, el final de la declaracion se indica con ":". Las lineas dentro de la funcion tienen que tener una identacion de 4 espacios.
