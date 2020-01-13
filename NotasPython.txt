@@ -18,6 +18,7 @@ Variables
 		- Se utiliza el operador [] para indicar la posicion de un elemento en la lista. Si dentro se utiliza la sintaxis x:y se recupera una sublista empezando por el elemento x y llega hasta el elemento antes de y
 			Si no se indica el valor y, se llega hasta el final de la lista. Con los indices negativos se empieza a contar desde el final de la lista (-1, -2, -3....)
 	* Para usar diccionarios de datos se utiliza el operador {}
+		- Los diccionarios utilizan el operador [] tambien pero necesitan que se indique la key de el valor buscado, no la posicion
 	* Para usar una tupla de datos se utiliza el operador ()
 		- La diferencia entre las tuplas y las listas, es que las primeras son inmutables mientras que las segundas son mutables, esto quiere decir que a las listas puedes añadir o quitar elementos
 	* Los strings se comportan como una lista de caracteres, por lo que se pueden utilizar los metodos de las listas para acceder a sus caracteres, o generar substrings
