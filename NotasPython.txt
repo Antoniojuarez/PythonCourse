@@ -15,7 +15,8 @@ Variables
 		- Comando append para añadir un nuevo valor
 		- Comando clear para limpiar la lista
 		- Comando index para recuperar la posicion de un valor de la lista, permite indicar el intervalo de elementos en el que buscar en la lista (start, stop)
-		- Se utiliza el operador [] para indicar la posicion de un elemento en la lista
+		- Se utiliza el operador [] para indicar la posicion de un elemento en la lista. Si dentro se utiliza la sintaxis x:y se recupera una sublista empezando por el elemento x y llega hasta el elemento antes de y
+			Si no se indica el valor y, se llega hasta el final de la lista
 	* Para usar diccionarios de datos se utiliza el operador {}
 	* Para usar una tupla de datos se utiliza el operador ()
 		- La diferencia entre las tuplas y las listas, es que las primeras son inmutables mientras que las segundas son mutables, esto quiere decir que a las listas puedes añadir o quitar elementos
