@@ -30,3 +30,4 @@ Metodo help(type.attributte) muestra lo que hace el atributo seleccionado
 Funciones
 
 	* Utilizar la expresion "def" para indicar que se va a definir una funcion, el final de la declaracion se indica con ":". Las lineas dentro de la funcion tienen que tener una identacion de 4 espacios.
+	* Si no se indica un return en la funcion, python asume que se devolvera un None. Un print en la función no actua como un return, siempre devolvera un None aparte la función.
