@@ -14,8 +14,11 @@ z = 10.1
 sum1 = x + x
 sum2 = y + y
 
-def mean(mylist):
-    the_mean = sum(mylist) / len(mylist)
+def mean(value):
+    if type(value) == dict:
+        the_mean = sum(value.values()) / len(value)
+    else:
+        the_mean = sum(value) / len(value)
     return the_mean
 
 print(sum1, sum2)
