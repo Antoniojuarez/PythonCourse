@@ -20,6 +20,7 @@ Variables
 	* Para usar diccionarios de datos se utiliza el operador {}
 	* Para usar una tupla de datos se utiliza el operador ()
 		- La diferencia entre las tuplas y las listas, es que las primeras son inmutables mientras que las segundas son mutables, esto quiere decir que a las listas puedes añadir o quitar elementos
+	* Los strings se comportan como una lista de caracteres, por lo que se pueden utilizar los metodos de las listas para acceder a sus caracteres, o generar substrings
 
 Metodo dir(type) indica todas las propiedades de las que dispone el tipo indicado
 	* dir(__builtins__) -> Indica las funciones disponibles en python
