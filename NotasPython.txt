@@ -35,3 +35,4 @@ Funciones
 Condicionales
 	* Cuando se quieren anidar condiciones se utilizara los operadores "and" y "or"
 	* Para comprobar el type de una variable se puede usar la funcion isinstance(valor, type)
+	* Usar el termino elif para añadir condiciones a distintos casos (else if)
