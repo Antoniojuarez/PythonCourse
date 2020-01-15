@@ -54,4 +54,6 @@ String
 
 Bucles
 	* La sintaxis del bucle for sera "for variable in array:", funciona como un foreach
-	* En los diccionarios podemos elegir iterar entre las claves .key, los valores .values o los items .items con los que recuperaremos las tuplas
+	* En los diccionarios podemos elegir iterar entre las claves .key, los valores .values o los items .items con los que recuperaremos las tuplas. Se puede recuperar la key y el valor al mismo tiempo si usamos el bucle sobre
+		los items
+	* La sintaxis del bucle while sera "while condicion:

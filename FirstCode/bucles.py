@@ -10,3 +10,8 @@ student_grades = {"Marry": 9.1, "Sim": 8.8, "John": 7.5}
 
 for grades in student_grades.items():
     print(grades)
+
+username = ''
+
+while username != "pypy":
+    username = input("Enter username: ")
