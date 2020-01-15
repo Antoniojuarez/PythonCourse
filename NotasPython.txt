@@ -45,3 +45,7 @@ Uso de espacios en blanco
 Input
 	* Para generar un input donde escribir valores usar el comando input(Texto antes del input).
 	* Lo que se escribe en el campo input es tratado como un string, es necesario realizar un casteo al tipo que buscamos.
+	
+String
+	* El tratamiento de variables es string se hace con el comando "adfasd %s" & variable , la variable sustituira el valor de %s
+	* Tambien se pueden tratar con el comando f"{variable}" antes del texto a escribir y añadiendo las variables entre corchetes dentro del string
