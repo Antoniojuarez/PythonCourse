@@ -41,3 +41,7 @@ Uso de espacios en blanco
 	* Despues de una condicion se puede añadir la cantidad de espacios que se quieran pero no es una buena practica.
 	* Entre valores y operadores pueden haber o no espacios
 	* Dentro de una funcion es necesarios que las lineas tengan identacion con respecto a la definicion de la funcion (buena practica es 4)
+	
+Input
+	* Para generar un input donde escribir valores usar el comando input(Texto antes del input).
+	* Lo que se escribe en el campo input es tratado como un string, es necesario realizar un casteo al tipo que buscamos.
