@@ -8,7 +8,9 @@ user_input = float(input("Enter some input:"))
 
 print(weather_condition((user_input)))
 
-name_input = input("Enter your name: ")
-message = "Hello %s!" % name_input
-message = f"Hello {name_input}"
+name = input("Enter your name: ")
+surname = input("Enter your surnname:")
+message = "Hello %s %s!" % (name, surname)
+print(message)
+message = f"Hello {name} {surname}"
 print(message)

@@ -47,5 +47,7 @@ Input
 	* Lo que se escribe en el campo input es tratado como un string, es necesario realizar un casteo al tipo que buscamos.
 	
 String
-	* El tratamiento de variables es string se hace con el comando "adfasd %s" & variable , la variable sustituira el valor de %s
-	* Tambien se pueden tratar con el comando f"{variable}" antes del texto a escribir y añadiendo las variables entre corchetes dentro del string
+	* El tratamiento de variables es string se hace con el comando "adfasd %s" & variable , la variable sustituira el valor de %s. Funciona en python 2 y python 3. Para multiples variables añadir un %s para cada una de ellas
+		y añadir el listado de variables entre parentesis con comas
+	* Tambien se pueden tratar con el comando f"{variable}" antes del texto a escribir y añadiendo las variables entre corchetes dentro del string. Solo funciona a partir de python 3.6. Para multiples variables añadir un 
+		parametro entre {} por cada uno de ellos.
