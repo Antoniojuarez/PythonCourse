@@ -51,3 +51,7 @@ String
 		y añadir el listado de variables entre parentesis con comas
 	* Tambien se pueden tratar con el comando f"{variable}" antes del texto a escribir y añadiendo las variables entre corchetes dentro del string. Solo funciona a partir de python 3.6. Para multiples variables añadir un 
 		parametro entre {} por cada uno de ellos.
+
+Bucles
+	* La sintaxis del bucle for sera "for variable in array:", funciona como un foreach
+	* En los diccionarios podemos elegir iterar entre las claves .key, los valores .values o los items .items con los que recuperaremos las tuplas

@@ -5,3 +5,8 @@ for temperature in monday_temperatures:
 
 for letter in 'hello':
     print(letter.title())
+
+student_grades = {"Marry": 9.1, "Sim": 8.8, "John": 7.5}
+
+for grades in student_grades.items():
+    print(grades)
