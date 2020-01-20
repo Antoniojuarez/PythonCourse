@@ -63,3 +63,9 @@ ListComprehensions
 		[tratar elemento for elemento in lista] -> ex: [temp / 10 for temp in temps]
 	  Se pueden añadir condicionales para excluir elementos de la lista original [tratar elemento for elemento in lista if condicion elemento]
 	  Si queremos añadir un else a nuestra condicion debemos modificar la sintaxis [tratar elemento if condicion elemento else elemento for elemento in lista] pasando delante la condicion del bucle
+
+Funciones
+	* Al pasar varios parametros a una funcion los podemos identificar de dos maneras
+		- Non keyword arguments funcion(5, 4), estos argumentos se asocian a los  parametros de la función por su posicion en la llamada
+		- Keyword arguments funcion(b=5, a=4) la posicion de los argumentos no importa ya que se asocia su variable al parametro de la llamada.
+	* En la definicion de la funcion se les puede asignar valores por defecto a los parametros, pero estos siempre tienen que estar despues de los parametros que no tengan valor por defecto def funcion(a, b=5)
