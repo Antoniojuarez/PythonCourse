@@ -61,4 +61,5 @@ Bucles
 ListComprehensions
 	* Es una manera de construir listas a partir de otras listas. En la generacion de la nueva lista iteramos los datos de la lista existente y la tratamos para generar la nueva.
 		[tratar elemento for elemento in lista] -> ex: [temp / 10 for temp in temps]
-	  Se pueden añadir condicionales para excluir elementos de la lista original
+	  Se pueden añadir condicionales para excluir elementos de la lista original [tratar elemento for elemento in lista if condicion elemento]
+	  Si queremos añadir un else a nuestra condicion debemos modificar la sintaxis [tratar elemento if condicion elemento else elemento for elemento in lista] pasando delante la condicion del bucle
