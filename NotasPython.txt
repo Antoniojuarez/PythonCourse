@@ -61,3 +61,4 @@ Bucles
 ListComprehensions
 	* Es una manera de construir listas a partir de otras listas. En la generacion de la nueva lista iteramos los datos de la lista existente y la tratamos para generar la nueva.
 		[tratar elemento for elemento in lista] -> ex: [temp / 10 for temp in temps]
+	  Se pueden añadir condicionales para excluir elementos de la lista original
