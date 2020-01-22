@@ -72,3 +72,6 @@ Funciones
 	* Se puede definir una funcion con un numero de parametros indefinidos con la sintaxis def funcion(*args). Una vez llamada solo aceptara Non Keyword arguments. Los argumentos trabajan como una tupla.
 	* Si queremos definir una funcion con un numero de parametros indefinidos del tipo Keyword argument la sintaxis sera def funcion(**kwargs). No admitira argumentos del tipo non keyword. Los argumentos trabajan como un
 	diccionario
+
+Ficheros
+	* Para leer un fichero tan solo hay que llamar a la funcion open(rutaFichero), el objeto devuelto por esta funcion se puede escribir en pantalla llamando al .read()
