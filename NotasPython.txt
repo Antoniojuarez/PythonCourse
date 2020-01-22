@@ -83,3 +83,6 @@ Ficheros
 		Si queremos escribir en el fichero deberemos indicar de forma explicita el valor "w" y utilizar el metodo write(). Esto sobrescribira los valores existentes en ese fichero.
 	* Podemos abrir el fichero con la instruccion "a" esto nos permitira escribir al final del fichero, pero no leer el contenido. En caso de querer abrir como lectura/escritura debemos abrir el fichero con la instruccion
 		"a+", hay que recordar que tras escribir el cursor se va al final del documento, si queremos llevarlo al inicio debemos usar el comando seek(0).
+
+Modulos
+	* Para añadir nuevos modulos a un script, se utilizar la instruccion "import modulo", se utilizara esta palabra reservada modulo para llamar a sus metodos "modulo.metodo"
