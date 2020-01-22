@@ -79,3 +79,5 @@ Ficheros
 		imprimira nada. Para solucionar esto debemos guardar el valor de read() en una variable y podremos imprimir tantas veces como queramos.
 	* Es recomendable cerrar un fichero cuando se deja de utilizar con la funcion close()
 	* El fichero tambien se puede abrir con la sintaxis "with open() as myfile:"
+	* Al abrir un fichero con open(ruta) hay un segundo parametro implicito que es "r", este indica que el fichero es de solo lectura.
+		Si queremos escribir en el fichero deberemos indicar de forma explicita el valor "w" y utilizar el metodo write(). Esto sobrescribira los valores existentes en ese fichero.
