@@ -75,3 +75,5 @@ Funciones
 
 Ficheros
 	* Para leer un fichero tan solo hay que llamar a la funcion open(rutaFichero), el objeto devuelto por esta funcion se puede escribir en pantalla llamando al .read()
+		Cuando un fichero se abre el cursor se pone delante del primer caracter, cuando se llama a read() el cursor pasa a estar situado detras del ultimo caracter, de tal manera que si volvemos a llamar al metodo read no
+		imprimira nada. Para solucionar esto debemos guardar el valor de read() en una variable y podremos imprimir tantas veces como queramos.
